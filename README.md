@@ -1,22 +1,52 @@
-![image](https://raw.githubusercontent.com/IBM/watson-machine-learning-samples/master/cloud/notebooks/headers/watsonx-Prompt_Lab-Notebook.png)
+# 💡 AI Agent for Digital Financial Literacy
 
-# Agents Lab Notebook v1.0.0
+This project is developed as part of the *IBM SkillsBuild SB4Academia Challenge 2025* (Problem Statement No. 7).
 
-This project demonstrates how to use agents configured in **IBM watsonx.ai Agent Lab**. The notebook walks through the process of creating and running a LangGraph agent that leverages IBM's foundation models and tools for prompt-based AI tasks.
+## 🧠 Objective
 
-## 🔍 Overview
+To build an AI-powered assistant that educates users — especially students, beginners, and rural citizens — about digital financial concepts such as UPI, budgeting, interest rates, and scam prevention.
 
-The notebook includes:
+## 🚀 Built With
 
-- Setup and authentication with IBM Watsonx.ai
-- Use of `langchain_ibm` and `ibm_watsonx_ai` libraries
-- Building a React-style agent using `langgraph`
-- Integration with LangChain's memory-saving and toolkits
-- Execution of a reasoning-based task via an AI agent
+- *IBM Watsonx.ai*
+- *Granite Foundation Model (13B Chat)*
+- *Natural Language Processing (NLP)*
+- *Retrieval-Augmented Generation (RAG)*
+- *Cloud Object Storage*
+- *LangGraph + ReAct Architecture*
 
-## 🧰 Dependencies
+## 🧩 Features
 
-Make sure the following Python packages are installed:
+- ✅ Simple answers to financial questions (UPI, loans, interest rates, etc.)
+- ✅ Scam and fraud awareness (phishing, OTP fraud)
+- ✅ RAG-based document retrieval using vector index
+- ✅ Links to trusted resources (RBI, NPCI, Cybercrime portal)
+- ✅ Multilingual-friendly instructions (regional language support optional)
 
-```bash
-pip install langchain_ibm ibm-watsonx-ai langgraph
+## 👨‍🏫 End Users
+
+- Students and Young Adults  
+- Rural Citizens and First-time Internet Users  
+- NGOs and Financial Literacy Campaigns  
+- Government Digital India Projects
+
+## 🔐 Safety Highlights
+
+- Does *not* collect personal data (Aadhaar, OTPs, passwords, bank info)
+- Warns about scams and links users to official help portals
+
+## 📌 How to Run
+
+1. Create a new project in [IBM Watsonx.ai](https://cloud.ibm.com)
+2. Upload the .txt file as a vector index
+3. Set up your agent with ReAct + LangGraph
+4. Attach IBM Granite model + runtime
+5. Deploy via Deployment Space with Cloud Object Storage
+6. Test with user queries like:
+   - "How to use UPI?"
+   - "What is phishing?"
+   - "How to plan my monthly budget?"
+
+
+---
+
